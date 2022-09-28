@@ -1,6 +1,6 @@
-INSERT INTO players (nick,email,password) VALUES (BKTCZ, email@gmail.com, pass1)
-INSERT INTO players (nick,email,password) VALUES (hf45, email2@gmail.com, pass2)
-INSERT INTO players (nick,email,password) VALUES (ak23, email3@gmail.com, pass3)
+INSERT INTO players (nick,email,password) VALUES ("BKTCZ", "email@gmail.com", "pass1")
+INSERT INTO players (nick,email,password) VALUES ("hf45", "email2@gmail.com", "pass2")
+INSERT INTO players (nick,email,password) VALUES ("ak23", "email3@gmail.com", "pass3")
 
 @villages
 INSERT INTO villages (name, x, y, players_id) VALUES ("wioska1", 25, 42, 3)
