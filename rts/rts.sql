@@ -4,19 +4,19 @@ INSERT INTO players (nick,email,password) VALUES ("ak23", "email3@gmail.com", "p
 
 @villages
 INSERT INTO villages (name, x, y, players_id) VALUES ("wioska1", 25, 42, 3)
-INSERT INTO villages (name, x, y, players_id) VALUES ("wioska2", 30, 48, 6)
-INSERT INTO villages (name, x, y, players_id) VALUES ("wioska3", 35, 50, 9)
+INSERT INTO villages (name, x, y, players_id) VALUES ("wioska2", 30, 48, 2)
+INSERT INTO villages (name, x, y, players_id) VALUES ("wioska3", 35, 50, 1)
 
 @troops
-INSERT INTO troops (name, description, damage, distance damage, defence) VALUES ("Łucznik", posiada łuk, 2, 3, 2)
-INSERT INTO troops (name, description, damage, distance damage, defence) VALUES ("miecznik", posiada miecz, 3, 4, 5)
-INSERT INTO troops (name, description, damage, distance damage, defence) VALUES ("kusznik", jest lepszum lucznikiem, 6, 8, 9)
-INSERT INTO troops (name, description, damage, distance damage, defence) VALUES ("rycerz", jest lepszym miecznikiem, 1, 2, 3)
+INSERT INTO troops (name, description, damage, distance_damage, defence) VALUES ("Łucznik", "posiada łuk", 2, 3, 2)
+INSERT INTO troops (name, description, damage, distance_damage, defence) VALUES ("miecznik", "posiada miecz", 3, 4, 5)
+INSERT INTO troops (name, description, damage, distance_damage, defence) VALUES ("kusznik", "jest lepszum lucznikiem", 6, 8, 9)
+INSERT INTO troops (name, description, damage, distance_damage, defence) VALUES ("rycerz", "jest lepszym miecznikiem", 1, 2, 3)
 
 @resources
 INSERT INTO resources (name, description) VALUES ("drewno", podstawa imperium)
 INSERT INTO resources (name, description) VALUES ("glina", potrzebny surowiec)
-INSERT INTO resources (name, description) VALUES ("zelazo", zelazo warto miec zwlaszcza doo jednostek)
+INSERT INTO resources (name, description) VALUES ("zelazo", zelazo warto miec zwlaszcza do jednostek)
 
 @buildings
 INSERT INTO buildings (name) VALUES ("dol z glina")
